@@ -7,6 +7,7 @@ $config = [
     'id' => 'basic',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
+    'name' => 'ПЕРСОНАЛ',
     'language' => 'Ru-ru',
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
@@ -81,7 +82,7 @@ $config = [
         'class' => 'mdm\admin\components\AccessControl',
         'allowActions' => [
             'site/*',
-            'personal/*',
+//            'personal/*',
 //            'rbac/*',
         ]
     ],
